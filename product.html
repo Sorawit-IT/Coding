@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>สินค้า</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">DreamCom</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">สิ้นค้า</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a href="#CPU" class="dropdown-item">CPU</a></li>
+                            <li><a href="#จอคอมพิวเตอร์" class="dropdown-item"> จอคอมพิวเตอร์</a></li>
+                            <li>
+                                <!-- <hr class="dropdown-divider"> -->
+                            </li>
+                            <li><a href="#การ์ดจอ" class="dropdown-item">การ์ดจอ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">ติดต่อเรา</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            
+                                <label for="subject">กรุณาเลือกเรื่องที่ต้องการติดต่อ:</label>
+                                <select name="subject" id="subject">
+                                    <option value="customer_service">บริการลูกค้า</option>
+                                    <option value="technical_support">สนับสนุนเทคนิค</option>
+                                    <option value="sales_inquiry">สอบถามเรื่องการขาย</option>
+                                    <option value="other">เรื่องอื่นๆ</option>
+                                </select>
+                                <br><br>
+                                <label for="message">ข้อความ:</label><br>
+                                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                                <br><br>
+                                <input type="submit" value="ส่งข้อความ">
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">สั่งซื้อสินค้า</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ส่วนgallary -->
+    <section id="CPU">
+        <div class="container">
+            <h1 class="text-center">ผลิตภัณฑ์CPU</h1>
+            <p class="text-center">ทุกผลิตภัณฑ์มีจำกัด</p>
+            <!-- image -->
+            <section>
+                <div class="product">
+                    <img src="4..png" alt="คอมพิวเตอร์ 1">
+                    <h6>เซ็ตร์คอมพิวเตอร์</h6>
+                    <p>ราคา: 25,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า1"></a>
+                </div>
+                <div class="product">
+                    <img src="16.CPU INTEL CORE I7.png" alt="คอมพิวเตอร์ 2">
+                    <h6>CPU INTEL CORE I7</h6>
+                    <p>ราคา: 30,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า2"></a>
+                </div>
+                <div class="product">
+                    <img src="17.AMD Ryzen 9.png" alt="คอมพิวเตอร์ 1">
+                    <h6>AMD Ryzen 9</h6>
+                    <p>ราคา: 25,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า3"></a>
+                </div>
+                <div class="product">
+                    <img src="18.AMD Ryzen 7.png" alt="คอมพิวเตอร์ 2">
+                    <h6>AMD Ryzen 7</h6>
+                    <p>ราคา: 10,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า4"></a>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="about" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="จอคอมพิวเตอร์">
+        <div class="container">
+            <h1 class="text-center">ผลิตภัณฑ์จอคอมพิวเตอร์</h1>
+            <p class="text-center">ทุกผลิตภัณฑ์มีจำกัด</p>
+            <!-- image -->
+            <section>
+                <div class="product">
+                    <img src="19.จอ msi.png" alt="คอมพิวเตอร์ 1">
+                    <h6>จอ msi</h6>
+                    <p>ราคา: 25,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า5"></a>
+                </div>
+                <div class="product">
+                    <img src="20.จอ asus.png" alt="คอมพิวเตอร์ 2">
+                    <h6>จอ asus</h6>
+                    <p>ราคา: 30,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า6"></a>
+                </div>
+                <div class="product">
+                    <img src="21.จอ Dell.png" alt="คอมพิวเตอร์ 1">
+                    <h6>จอ Dell</h6>
+                    <p>ราคา: 25,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า7"></a>
+                </div>
+                <div class="product">
+                    <img src="22.จอ samsung.png" alt="คอมพิวเตอร์ 2">
+                    <h6>จอ samsung</h6>
+                    <p>ราคา: 30,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า8"></a>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="about" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="การ์ดจอ">
+        <div class="container">
+            <h1 class="text-center">ผลิตภัณฑ์การ์ดแสดงผล(การ์ดจอ)</h1>
+            <p class="text-center">ทุกผลิตภัณฑ์มีจำกัด</p>
+            <!-- image -->
+            <section>
+                <div class="product">
+                    <img src="11.Display Card 4090 asus.png" alt="คอมพิวเตอร์ 1">
+                    <h6>Display Card 4090 asus</h6>
+                    <p>ราคา: 25,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า9"></a>
+                </div>
+                <div class="product">
+                    <img src="12.ASUS TUF Gaming GeForce RTX™ 4080.png" alt="คอมพิวเตอร์ 2">
+                    <h6>ASUS TUF Gaming GeForce RTX™ 4080</h6>
+                    <p>ราคา: 30,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า10"></a>
+                </div>
+                <br>
+                <div class="product">
+                    <img src="13.ASUS TUF Gaming GeForce RTX™ 4070.png" alt="คอมพิวเตอร์ 1">
+                    <h6>ASUS TUF Gaming GeForce RTX™ 4070</h6>
+                    <p>ราคา: 25,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า11"></a>
+                </div>
+                <div class="product">
+                    <img src="14.GIGABYTE RTX 3090 Xtreme.png" alt="คอมพิวเตอร์ 2">
+                    <h6>GIGABYTE RTX 3090 Xtreme</h6>
+                    <p>ราคา: 30,000 บาท</p>
+                    <a href=""><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="IDสินค้า12"></a>
+                </div>
+            </section>
+        </div>
+    </section>
+    <br><br><br>
+    <!-- footer -->
+    <footer>
+        <p>© 2024 ร้านคอมพิวเตอร์ DreamCom</p>
+    </footer>
+
+</body>
+
+</html>

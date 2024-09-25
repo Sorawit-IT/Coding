@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+*{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.carousel-item{
+    height: 400px;
+}
+.carousel-image-1{
+    background-image: url(https://img.pikbest.com/backgrounds/20190413/red-watercolor-background-v_1271152jpg!bw700);
+    background-size: cover;
+}
+.carousel-image-2{
+    background-image: url(https://img.pikbest.com/backgrounds/20190413/red-watercolor-background-v_1271152jpg!bw700);
+    background-size: cover;
+}
+.carousel-image-3{
+    background-image: url(https://img.pikbest.com/backgrounds/20190413/red-watercolor-background-v_1271152jpg!bw700);
+    background-size: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+section.footer p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 5rem;
+}
+.form-login{
+    width: 200%;
+    max-width: 800px;
+    padding: 15px;
+    margin: auto;
+}
+ body {
+            /* background-image: url(https://img.pikbest.com/backgrounds/20190413/red-watercolor-background-v_1271152jpg!bw700); */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .product {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 200px;
+            height: auto;
+        }
+        .product h3 {
+            margin-top: 10px;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #070707;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #070707;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        .product {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 200px;
+            height: auto;
+        }
+        .product h3 {
+            margin-top: 10px;
+        }
+
+        .dark-overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: radial-gradient(#070707, #070707);
+            width: 100%;
+            height: 50%;
+            
+        }
+        #about{
+            text-align: center;
+            min-height: 150px;
+            position: relative;
+            background-image: url(image/001.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: rgb(65, 62, 62);
+            background-attachment: fixed;
+        }
+
+        /* index */
+        Button#changebgcolor {
+            background-color: #19D7E5;
+        }

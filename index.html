@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หนัาแรก</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">DreamCom</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">สิ้นค้า</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a href="product.html" class="dropdown-item">CPU</a></li>
+                            <li><a href="product.html" class="dropdown-item"> จอคอมพิวเตอร์</a></li>
+                            <li>
+                                <!-- <hr class="dropdown-divider"> -->
+                            </li>
+                            <li><a href="product.html" class="dropdown-item">การ์ดจอ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">ติดต่อเรา</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            
+                                <label for="subject">กรุณาเลือกเรื่องที่ต้องการติดต่อ:</label>
+                                <select name="subject" id="subject">
+                                    <option value="customer_service">บริการลูกค้า</option>
+                                    <option value="technical_support">สนับสนุนเทคนิค</option>
+                                    <option value="sales_inquiry">สอบถามเรื่องการขาย</option>
+                                    <option value="other">เรื่องอื่นๆ</option>
+                                </select>
+                                <br><br>
+                                <label for="message">ข้อความ:</label><br>
+                                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                                <br><br>
+                                <input type="submit" value="ส่งข้อความ">
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">สั่งซื้อสินค้า</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <br><br><br>
+        <h1 class="text-center">จำหน่ายอุปกรณ์คอมพิวเตอร์ทุกชนิด</h1>
+        <p class="text-center">ทุกผลิตภัณฑ์มีคุณภาพ</p>
+    </div>  
+    <section id="Service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <picture>
+                        <a href="product.html"><img src="18.AMD Ryzen 7.png" 
+                            class="img-thumbnail" width="70px" height="70px"></a>
+
+                    </picture>
+                    <h5>CPU INTEL CORE I7</h5>
+                    <br>
+                    <a href="product.html"><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="Click ดูสินค้า"></a>
+                    
+                </div>
+                <div class="col-md-4 text-center">
+                    <picture>
+                        <a href="product.html"><img src="4..png" 
+                            class="img-thumbnail" width="70px" height="70px"></a>
+                        
+                    </picture>
+                    <h5>เซ็ตร์คอมพิวเตอร์</h5>
+                    <br>
+                    <a href="product.html"><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="Click ดูสินค้า"></a>
+                        
+                </div>
+                <div class="col-md-4 text-center">
+                    <picture>
+                        <a href="product.html"><img src="17.AMD Ryzen 9.png" 
+                            class="img-thumbnail" width="70px" height="70px"></a>
+                        
+                    </picture>
+                    <h5>AMD Ryzen 9</h5>
+                    <br>
+                    <br>
+                    <a href="product.html"><input type="button" style="background-color:rgb(255, 0, 0); color:rgb(255, 255, 255);" value="Click ดูสินค้า"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 ร้านคอมพิวเตอร์ DreamCom</p>
+    </footer>
+    
+</body>
+</html>

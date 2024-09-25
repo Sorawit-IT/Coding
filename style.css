@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+    font-family: 'Itim',  cursive; 
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+nav {
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2.5rem;
+    color: blue;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+li a {
+    color: crimson;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+img {
+    width: 25%;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.box{
+    border: 1px solid green;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+h2 {
+    font-size: 3rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex>*{
+    margin: 3px;
+}
+section.header{
+    width: 100%;
+    height: 90vh;
+    background: url("https://images.pexels.com/photos/16355930/pexels-photo-16355930/free-photo-of-woman-with-a-bunch-of-red-roses-and-a-man-walking-holding-hands.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")center no-repeat;
+    background-size: cover;
+}
+section.footer{
+    font-size: 5rem;
+    text-align: center;
+    line-height: 2;
+    margin: 5rem;
+}

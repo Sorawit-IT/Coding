@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+        <!-- <Nav> -->
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container">
+                    <a href="#" class="navbar-brand">DreamCom</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbar1" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">หน้าแรก</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="product.html" class="nav-link">สิ้นค้า</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="" class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a href="product.html" class="dropdown-item">CPU</a></li>
+                                    <li><a href="product.html" class="dropdown-item"> จอคอมพิวเตอร์</a></li>
+                                    <li>
+                                        <!-- <hr class="dropdown-divider"> -->
+                                    </li>
+                                    <li><a href="product.html" class="dropdown-item">การ์ดจอ</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">ติดต่อเรา</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="" class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    
+                                        <label for="subject">กรุณาเลือกเรื่องที่ต้องการติดต่อ:</label>
+                                        <select name="subject" id="subject">
+                                            <option value="customer_service">บริการลูกค้า</option>
+                                            <option value="technical_support">สนับสนุนเทคนิค</option>
+                                            <option value="sales_inquiry">สอบถามเรื่องการขาย</option>
+                                            <option value="other">เรื่องอื่นๆ</option>
+                                        </select>
+                                        <br><br>
+                                        <label for="message">ข้อความ:</label><br>
+                                        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                                        <br><br>
+                                        <input type="submit" value="ส่งข้อความ">
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="login.html" class="nav-link">สั่งซื้อสินค้า</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">อึด</h1>
+                            <p>สิทธิในการใช้ชื่อตราสินค้าและเครื่องหมายการค้าของDremCOM ในทางธุรกิจ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ทน</h1>
+                            <p>ระบบ pos ที่ช่วยให้บริหารงานได้อย่างมีประสิทธิภาพ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">นาน</h1>
+                            <p>สิทธิในการซื้อสินค้าผลิตภัณฑ์ วัตถุดิบต่างๆ ในราคาพิเศษ</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- form login -->
+    <section class="form-login">
+        <div class="container">
+            <h2><i class="bx bx-chalkboard" style="color: brown;"></i>เข้าสู่ระบบจัดการข้อมูล</h2>
+            <form action="insertdata.php" method="POST">
+            <div class="mb-3">
+                <label for="fname" class="form-label">username</label>
+                <input type="text" class="form-control" id="fname" name="fname" required>
+            </div>
+            <div class="mb-3">
+                <label for="ID" >IDสินค้า</label>
+                <input type="text" class="form-control" id="ID" name="ID" required>
+            </div>
+            <div class="mb-3">
+                <label for="aaddress">ที่อยู่</label><br>
+                <input type="text" class="form-control" id="aaddress" name="aaddress" required >
+            </div>
+            <div class="mb-3">
+                <label for="DDate" >วันที่</label>
+                <input type="text" class="form-control" id="DDate" name="DDate" required>
+            </div>
+            <button type="submit" class="btn btn-dark">ยืนยันสั่งซื้อ</button>
+            <button type="reset" class="btn btn-success">ล้างข้อมูล</button>
+            <a href="product.html" class="btn btn-info">กลับหน้าหลัก</a>
+        </div>
+    </form>
+    </section>
+</body>
+</html>
+
